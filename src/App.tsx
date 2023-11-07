@@ -2,7 +2,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hello typescript</h1>
+        <h1>Typscript-React Practice Project </h1>
       </div>
     </>
   );
