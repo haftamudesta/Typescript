@@ -9,6 +9,7 @@ import User from './components/User'
 import Counter from './components/Counter'
 import Box from './components/context/Box'
 import { ThemeContextProvider } from './components/context/ThemeContext'
+import KeyBoard from './components/KeyBoard'
 
 function App() {
   const personName={
@@ -45,6 +46,7 @@ function App() {
       <ThemeContextProvider>
       <Box />
       </ThemeContextProvider>
+      <KeyBoard/>
     </>
   )
 }
